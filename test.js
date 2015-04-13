@@ -1,14 +1,22 @@
 (function() {
   "use strict";
-  describe('Entering numbers', function(){
+  describe('Does Mocha/Chai Work?', function(){
 
-    describe('displayoutput', function(){
-      it('should return the value of the display', function(){
-        $('#displayoutput').val(1.23);
-        assert.equal(displayOutput(), 1.23);
+    describe('Create an function that reverses a string', function(){
+      it('Reverse Hello', function(){
+        assert.equal(ReverseAString("Hello"), "olleH");
 
       })
     });
+    describe('Create an function that reverses a string', function(){
+      it('Reverse LIVE.', function(){
+        assert.equal(ReverseAString("LIVE"), "EVIL");
+
+      })
+    });
+
+
+
   });
 
 }());

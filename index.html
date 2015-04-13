@@ -9,9 +9,24 @@
   </head>
   <body>
     <h1> Practice makes Perfect</h1>
+    <div>
+      <pre>
+          str = "Hello, my name is Sonda."
+          function FirstReverse(str) {
+          var bstr = "";
+            for (var i = 0; i < str.length; i++){
+              bstr = str[i] + bstr;
+            }
+              str = bstr;
+              $("div").text(bstr);
+            }
+          FirstReverse(str);
+      </pre>
+
+    </div>
     <div id="mocha">
       <div class="mocha-fixture hidden">
-        <input id="displayoutput">
+        <input id="display">
       </div>
     </div>
 
